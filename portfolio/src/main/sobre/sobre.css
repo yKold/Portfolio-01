@@ -1,0 +1,32 @@
+.Container{
+    padding: 100px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    text-align: justify;
+    margin: auto;
+}
+
+.sobre_header{
+    font-size: x-large;
+}
+
+@media (min-width: 980px) {
+    .Container{
+        width: 70vw;
+    }
+}
+@media (min-width: 1230px) {
+    .Container{
+        width: 60vw;
+    }
+}
+@media (min-width: 1400px) {
+    .Container{
+        width: 50vw;
+    }
+}
+@media (min-width: 1800px) {
+    .Container{
+        width: 40vw;
+    }
+}

@@ -1,0 +1,29 @@
+
+.tamanho{
+    width: 90vw;
+}
+.bloco{
+    padding: 20px;
+    margin: 20px;
+    width: 30vw;
+    background-image: linear-gradient(90deg, #1a1a1afa 10%, #002a7700 90%);
+}
+
+@media (max-width: 600px) {
+    .bloco{
+        width: 80vw;
+        background-image: linear-gradient(90deg, #1a1a1afa 70%, #002a7700 );
+    }
+}
+@media (max-width: 900px) {
+    .bloco{
+        width: 60vw;
+        background-image: linear-gradient(90deg, #1a1a1afa 50%, #002a7700 );
+    }
+}
+@media (max-width: 1300px) {
+    .bloco{
+        width: 45vw;
+        background-image: linear-gradient(90deg, #1a1a1afa 30%, #002a7700 );
+    }
+}
